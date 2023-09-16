@@ -12,10 +12,10 @@ import org.springframework.web.bind.annotation.RequestMapping;
 @RequestMapping("home")
 public class SpringjenkinsApplication {
 	public static Logger logger= LoggerFactory.getLogger(SpringjenkinsApplication.class);
-@PostConstruct
+/*@PostConstruct
 	public void init(){
 		logger.info("Application Started");
-	}
+	}*/
 
 	public static void main(String[] args) {
 	logger.info("Application Executed");
