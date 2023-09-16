@@ -1,6 +1,6 @@
 package com.springJenkins.springjenkins;
 
-import jakarta.annotation.PostConstruct;
+
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.boot.SpringApplication;
@@ -16,7 +16,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RequestMapping("home")
 public class SpringjenkinsApplication {
 	public static Logger logger= LoggerFactory.getLogger(SpringjenkinsApplication.class);
- @PostConstruct
+
 	public void init(){
 		logger.info("Application Started");
 	}
